@@ -1,0 +1,42 @@
+.ContactCreate__container {
+    width: 400px;
+    margin: 16px auto;
+    padding: 8px;
+    border: thick double #102d46;
+}
+
+.ContactCreate__title {
+    font-size: 16px;
+    color: #102d46;
+    font-weight: 500;
+}
+
+.ContactCreate__input {
+    width: 50%;
+    padding: 2px 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #102d46;
+    background-color: #e8e1e1;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.ContactCreate__button {
+    margin-top: 24px;
+    margin-left: 24px;
+    background-color: #e8e1e1;
+    border-radius: 4px;
+    color: #102d46;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 4px 16px;
+}
+
+.ContactCreate__button:focus,
+.ContactCreate__button:hover {
+    color: #e8e1e1;
+    background-color: #3c57b7;
+}

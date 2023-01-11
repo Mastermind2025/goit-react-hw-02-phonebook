@@ -1,0 +1,18 @@
+.Filter__filter {
+    font-size: 16px;
+    color: #102d46;
+    font-weight: 500;
+}
+
+.Filter__input {
+    width: 50%;
+    padding: 2px 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #102d46;
+    background-color: #e8e1e1;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

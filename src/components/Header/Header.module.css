@@ -1,0 +1,13 @@
+.Header__container {
+    width: 400px;
+    top: 24px;
+    margin: 0 auto;
+
+}
+
+.Header__title {
+    text-align: center;
+    font-size: 30px;
+    color: #102d46;
+    font-weight: 700;
+}

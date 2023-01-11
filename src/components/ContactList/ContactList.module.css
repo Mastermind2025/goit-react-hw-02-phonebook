@@ -1,0 +1,30 @@
+.ContactList__list {
+    list-style: none;
+}
+
+.ContactList__item {
+    display: flex;
+    font-size: 16px;
+    color: #102d46;
+    justify-content: space-between;
+}
+
+.ContactList__button {
+    height: 20px;
+    background-color: #e8e1e1;
+    border-radius: 4px;
+    color: #102d46;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 4px 16px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.ContactList__button:focus,
+.ContactList__button:hover {
+    color: #e8e1e1;
+    background-color: #3c6bb7;
+}
